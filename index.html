@@ -2,6 +2,12 @@
 <head>
 <title>Reference Image</title>
 <link rel="stylesheet" href="style.css">
+<script>
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
 </head>
 <body>
 <p class="center"><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
