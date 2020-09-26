@@ -1,0 +1,10 @@
+{
+    "name": "Reference Image Viewer for PC",
+    "short_name": "Reference Image Viewer",
+    "description": "Allows the user to load an image and use it for reference on whatever application they please",
+    "start_url": "https://kckarnige.github.io/PWATest/",
+    "display": "standalone",
+    "scope": "/",
+    "orientation": "any",
+    "lang": "English"
+}
